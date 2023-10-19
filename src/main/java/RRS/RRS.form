@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RRS.RRS">
+  <grid id="27dc6" binding="panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1608" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5920855"/>
+      <enabled value="false"/>
+      <font size="16" style="1"/>
+      <foreground color="-5920855"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="etched" title="Railway Reservation System" title-justification="2">
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <component id="50df0" class="javax.swing.JButton" binding="retrieveTrainListButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <horizontalAlignment value="0"/>
+          <text value="Retrieve Passenger Bookings"/>
+        </properties>
+      </component>
+      <component id="b05b2" class="javax.swing.JButton" binding="getTrainRunningInfoButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Get Train Running Info "/>
+        </properties>
+      </component>
+      <component id="4be6" class="javax.swing.JButton" binding="cancelTrainTicketButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Cancel Train ticket"/>
+        </properties>
+      </component>
+      <component id="aa895" class="javax.swing.JButton" binding="retrievePassengerInfoButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Retrieve Passenger info"/>
+        </properties>
+      </component>
+      <component id="260cb" class="javax.swing.JButton" binding="bookTicketButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Book Ticket"/>
+        </properties>
+      </component>
+      <component id="775b0" class="javax.swing.JButton" binding="displayTrainInformationButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Display train information"/>
+        </properties>
+      </component>
+      <component id="52850" class="javax.swing.JButton" binding="getConfirmedTicketListButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <font name="Monospaced"/>
+          <text value="Get confirmed ticket list"/>
+        </properties>
+      </component>
+      <component id="70611" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
