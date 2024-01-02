@@ -6,7 +6,7 @@ Java 11 or a later version is installed.
 MySQL database server installation IntelliJ IDE
 Clone the repository to your computer.
 
-1.Import the project into the IntelliJ IDE.\n
-2.Add the MySQL connector dependency to the pom.xml file.\n
-3.Update the URL, username, and password in the code to configure the database connection.\n
+1.Import the project into the IntelliJ IDE.
+2.Add the MySQL connector dependency to the pom.xml file.
+3.Update the URL, username, and password in the code to configure the database connection.
 4.Start the application.
